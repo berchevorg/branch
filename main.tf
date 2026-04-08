@@ -1,19 +1,19 @@
 resource "random_pet" "name1" {
- length    = "3"
- separator = "-"
+ length    = "4"
+ separator = "-+"
 }
 
 resource "random_pet" "name2" {
- length    = "3"
- separator = "-"
+ length    = "4"
+ separator = "-+"
 }
 
 resource "random_pet" "name3" {
- length    = "5"
- separator = "+"
+ length    = "3"
+ separator = "+-"
 }
 
 resource "random_pet" "name4" {
- length    = "5"
- separator = "+"
+ length    = "3"
+ separator = "+-"
 }
